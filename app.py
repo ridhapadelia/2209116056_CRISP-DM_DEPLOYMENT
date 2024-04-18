@@ -40,6 +40,7 @@ plt.ylabel('Jumlah Responden')
 plt.title('Perbandingan Tingkat Adaptabilitas berdasarkan Tingkat Pendidikan')
 # Menampilkan plot di Streamlit
 st.pyplot(plt)
+st.write("Dari visualisasi diatas menunjukkan bahwa rata-rata tingkat education level tertinggi berasal dari tingkat pendidikan universitas, kemudian menempati posisi kedua ada pada tingkat pendidikan sekolah, dan yang terakhir tingkat pendidikan school memiliki tingkat adaptibilitas tinggi yang sangat sedikit") 
 
 
 
@@ -53,6 +54,7 @@ plt.xlabel('Location')
 plt.ylabel('Frekuensi')
 # Menampilkan plot di Streamlit
 st.pyplot(plt)
+st.write("Dari visualisasi diatas menunjukkan bahwa rata-rata siswa dan mahasiswa berlokasi di daerah perkotaan")
 
 
 
@@ -64,6 +66,7 @@ plt.pie(gender_counts, labels=gender_counts.index, autopct='%1.1f%%', startangle
 plt.title('Gender Responden')
 plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 st.pyplot(plt)
+st.write("Dari diagram pie berikut dapat terlihat bahwa mayoritas responden merupakan seorang laki-laki dengan presentase sebesar 57,8%, sedangkan responden perempuan persentasenya sebesar 42,2%") 
 
 
 
