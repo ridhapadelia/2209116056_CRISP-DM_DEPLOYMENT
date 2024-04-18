@@ -44,10 +44,10 @@ st.pyplot(plt)
 
 
 
-## Membuat histogram menggunakan kolom "Network Type"
+## Membuat histogram menggunakan kolom "Location"
 plt.figure(figsize=(10, 6))
 sns.histplot(df['Location'].dropna(), bins=5, kde=True)
-plt.title('Distribusi Jenis Jaringan')
+plt.title('Distribusi Lokasi siswa dan mahasiswa')
 plt.xlabel('Location')
 plt.ylabel('Frekuensi')
 # Menampilkan plot di Streamlit
