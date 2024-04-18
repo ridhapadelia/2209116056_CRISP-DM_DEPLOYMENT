@@ -40,7 +40,7 @@ plt.ylabel('Jumlah Responden')
 plt.title('Perbandingan Tingkat Adaptabilitas berdasarkan Tingkat Pendidikan')
 # Menampilkan plot di Streamlit
 st.pyplot(plt)
-st.write("Dari visualisasi diatas menunjukkan bahwa rata-rata tingkat education level tertinggi berasal dari tingkat pendidikan universitas, kemudian menempati posisi kedua ada pada tingkat pendidikan sekolah, dan yang terakhir tingkat pendidikan school memiliki tingkat adaptibilitas tinggi yang sangat sedikit") 
+st.write("Dari visualisasi diatas menunjukkan bahwa rata-rata tingkat education level tertinggi berasal dari tingkat pendidikan universitas, kemudian menempati posisi kedua ada pada tingkat pendidikan sekolah, dan yang terakhir tingkat pendidikan college memiliki tingkat adaptibilitas tinggi yang sangat sedikit") 
 
 
 
