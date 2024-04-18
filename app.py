@@ -25,6 +25,7 @@ plt.ylabel('Jumlah Responden')
 plt.grid(True)
 # Menampilkan plot di Streamlit
 st.pyplot(plt)
+st.write("Dapat terlihat pada visualisasi diatas bahwa rata-rata umur responden yang ada pada dataset berkisar antar 20-23 tahun yang artinya kebanyakan responden merupakan seorang mahasiswa")
 
 
 
